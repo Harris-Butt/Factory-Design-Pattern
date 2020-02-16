@@ -4,21 +4,21 @@ using System.Text;
 
 namespace FactoryDesginPattern
 {
-    class MoneyBack : CreditCard
+    class Platinum : CreditCard
     {
         public int GetAnnualCharge()
         {
-            return 500;
+            return 2000;
         }
 
         public int GetCardLimit()
         {
-            return 150000;
+            return 350000;
         }
 
         public string GetCardType()
         {
-            return "Money Back";
+            return "Platinum Plus";
         }
     }
 }
